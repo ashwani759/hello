@@ -1,0 +1,1313 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "spartan";
+}
+
+.header {
+  width: 100vw;
+  min-height: 8vh;
+  background-color: #af397f;
+  display: flex;
+}
+.leftnav {
+  width: 50vw;
+  height: 8vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftnav h3 {
+  font-size: 20px;
+  color: white;
+}
+.rightnav {
+  width: 50vw;
+  height: 8vh;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rightnav i {
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+.rightnav a {
+  text-decoration: none;
+  color: white;
+}
+.watsapp {
+  width: 10%;
+  height: 20%;
+  position: relative;
+}
+
+.watsapp img {
+  width: 5%;
+  height: 10%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: fixed;
+  right: 0;
+  top: 10%;
+  z-index: 66666;
+}
+
+@media (max-width: 1041px) {
+  .header {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.white {
+  width: 100vw;
+  height: 13vh;
+
+  display: flex;
+}
+#whiteleft {
+  width: 30vw;
+  min-height: 7vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#whiteleft img {
+  width: 10vw;
+  height: 7vh;
+  object-fit: cover;
+}
+#whiteright {
+  width: 70vw;
+  min-height: 7vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#whiteright a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: rgb(94, 83, 83);
+}
+.line {
+  width: 100vw;
+  height: 10vh;
+
+  display: flex;
+}
+.leftline {
+  width: 30vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightline {
+  width: 60vw;
+  height: 5vh;
+}
+marquee {
+  color: #af397f;
+  font-weight: 500;
+  font-size: 20px;
+}
+#space {
+  width: 100vw;
+  height: 15vh;
+}
+#heading {
+  text-align: center;
+}
+.para span {
+  text-align: center;
+}
+.para p {
+  text-align: center;
+  color: black !important;
+}
+.para2 p {
+  text-align: center;
+  color: black !important;
+}
+
+.para2 h5 {
+  text-align: center;
+  padding-left: 20px;
+}
+.btne {
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  border-radius: 100px;
+  background: linear-gradient(
+    to left,
+    rgb(150, 58, 145),
+    rgb(154, 26, 158) 50%,
+    rgb(221, 42, 153) 75%,
+    rgb(218, 74, 153) 75%
+  );
+}
+
+.btnc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stag {
+  position: relative;
+}
+#grp {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+}
+
+@media (max-width: 350px) {
+  .header {
+    flex-direction: column;
+  }
+  .leftnav h3 {
+    text-align: center;
+  }
+  .white {
+    width: 100vw;
+    min-height: 7vh;
+    flex-direction: column;
+  }
+  #whiteright a {
+    display: none;
+  }
+
+  #whiteleft {
+    width: 100vw;
+    height: 7vh;
+  }
+  .f {
+    display: none;
+  }
+  .d {
+    display: none;
+  }
+  .q {
+    padding-left: 20px;
+  }
+  #heading h2 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  h5 {
+    text-align: center;
+  }
+  .watsapp {
+    width: 10%;
+    height: 20%;
+    position: relative;
+  }
+
+  .watsapp img {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 66666;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    flex-direction: column;
+  }
+  .leftnav h3 {
+    text-align: center;
+  }
+  .white {
+    width: 100vw;
+    min-height: 7vh;
+    flex-direction: column;
+  }
+  #whiteright a {
+    display: none;
+  }
+
+  #whiteleft {
+    width: 100vw;
+    height: 7vh;
+  }
+  .f {
+    display: none;
+  }
+  .d {
+    display: none;
+  }
+  .q {
+    padding-left: 20px;
+  }
+  #heading h2 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  h5 {
+    text-align: center;
+  }
+  .watsapp {
+    width: 10%;
+    height: 20%;
+    position: relative;
+  }
+
+  .watsapp img {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 66666;
+  }
+}
+@media (max-width: 450px) {
+  .header {
+    flex-direction: column;
+  }
+  .leftnav h3 {
+    text-align: center;
+  }
+  .white {
+    width: 100vw;
+    min-height: 7vh;
+    flex-direction: column;
+  }
+  #whiteright a {
+    display: none;
+  }
+
+  #whiteleft {
+    width: 100vw;
+    height: 7vh;
+  }
+  .f {
+    display: none;
+  }
+  .d {
+    display: none;
+  }
+  .q {
+    padding-left: 20px;
+  }
+  #heading h2 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  h5 {
+    text-align: center;
+  }
+  .watsapp {
+    width: 10%;
+    height: 20%;
+    position: relative;
+  }
+
+  .watsapp img {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 66666;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    flex-direction: column;
+  }
+  .leftnav h3 {
+    text-align: center;
+    font-size: 25pxr;
+  }
+  .white {
+    width: 100vw;
+    min-height: 7vh;
+    flex-direction: column;
+  }
+  #whiteright a {
+    display: none;
+  }
+
+  #whiteleft {
+    width: 100vw;
+    height: 7vh;
+  }
+  .f {
+    display: none;
+  }
+  .d {
+    display: none;
+  }
+  .q {
+    padding-left: 20px;
+  }
+  #heading h2 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  h5 {
+    text-align: center;
+  }
+  .watsapp {
+    width: 10%;
+    height: 20%;
+    position: relative;
+  }
+
+  .watsapp img {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 66666;
+  }
+}
+@media (max-width: 550px) {
+  .header {
+    flex-direction: column;
+  }
+  .leftnav h3 {
+    text-align: center;
+    font-size: 15pxr;
+  }
+  .white {
+    width: 100vw;
+    min-height: 7vh;
+    flex-direction: column;
+  }
+  #whiteright a {
+    display: none;
+  }
+
+  #whiteleft {
+    width: 100vw;
+    height: 7vh;
+  }
+  .f {
+    display: none;
+  }
+  .d {
+    display: none;
+  }
+  .q {
+    padding-left: 20px;
+  }
+  #heading h2 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 25px;
+  }
+  h5 {
+    text-align: center;
+  }
+  .watsapp {
+    width: 10%;
+    height: 20%;
+    position: relative;
+  }
+
+  .watsapp img {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 66666;
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  .leftnav h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .white {
+    width: 100vw;
+    min-height: 7vh;
+    flex-direction: column;
+  }
+  #whiteright a {
+    display: none;
+  }
+
+  #whiteleft {
+    width: 100vw;
+    height: 7vh;
+  }
+  .f {
+    display: none;
+  }
+  .d {
+    display: none;
+  }
+  .q {
+    padding-left: 20px;
+  }
+  #heading h2 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    font-size: 15px;
+  }
+  h5 {
+    text-align: center;
+  }
+  .watsapp {
+    width: 10%;
+    height: 20%;
+    position: relative;
+  }
+
+  .watsapp img {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    z-index: 66666;
+  }
+}
+
+.mid {
+  width: 100vw;
+  min-height: 20px;
+  background-color: red;
+  background-image: url(https://images.unsplash.com/photo-1564758565388-0d5da0cbb08c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2QlMjBhbmQlMjBkcmlua3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+}
+.overlay {
+  width: 100vw;
+  min-height: 40px;
+  background-color: rgb(37, 34, 34);
+  opacity: 0.9;
+  border: 1px solid transparent;
+  display: flex;
+}
+.left1 {
+  width: 40vw;
+  min-height: 50px;
+
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.left1 h2,
+p {
+  color: white;
+  font-size: 20px;
+}
+.bbt {
+  width: 10vw;
+  height: 7vh;
+  border-radius: 100px;
+  background: linear-gradient(to right, #941a85, #4e0fbd);
+  color: aliceblue;
+  margin-bottom: 30px;
+}
+.pic {
+  width: 40vw;
+  min-height: 10vh;
+
+  display: flex;
+}
+.pic1 {
+  width: 20vw;
+  height: 10vh;
+
+  background-image: url(https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0);
+  background-position: center;
+  background-size: cover;
+}
+
+.pic2 {
+  width: 20vw;
+  height: 10vh;
+
+  background-image: url(https://www.nifafinearts.com/images/appstore.png);
+  background-position: center;
+  background-size: cover;
+  margin-left: 20px;
+}
+.right1 {
+  width: 45vw;
+  min-height: 50px;
+
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.video1 {
+  width: 100%;
+  height: auto;
+  background-color: rgb(7, 7, 7);
+  border: 25px solid white;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.video2 {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 350px) {
+  .left1 h2,
+  p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  .left1 {
+    position: relative;
+    min-height: 7vh;
+  }
+  .bbt {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    background: linear-gradient(to right, #941a85, #4e0fbd);
+    color: aliceblue;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pic {
+    width: 55vw;
+    height: 10vh;
+    display: none;
+    display: flex;
+  }
+  .pic1 {
+    align-items: center;
+  }
+  .pic2 {
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .left1 h2,
+  p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  .left1 {
+    position: relative;
+    min-height: 7vh;
+  }
+  .bbt {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    background: linear-gradient(to right, #941a85, #4e0fbd);
+    color: aliceblue;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pic {
+    width: 55vw;
+    height: 10vh;
+    display: none;
+    display: flex;
+  }
+  .pic1 {
+    align-items: center;
+  }
+  .pic2 {
+    align-items: center;
+  }
+}
+@media (max-width: 450px) {
+  .left1 h2,
+  p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  .left1 {
+    position: relative;
+    min-height: 7vh;
+  }
+  .bbt {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    background: linear-gradient(to right, #941a85, #4e0fbd);
+    color: aliceblue;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pic {
+    width: 55vw;
+    height: 10vh;
+    display: none;
+    display: flex;
+  }
+  .pic1 {
+    align-items: center;
+  }
+  .pic2 {
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .left1 h2,
+  p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  .left1 {
+    position: relative;
+    min-height: 7vh;
+  }
+  .bbt {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    background: linear-gradient(to right, #941a85, #4e0fbd);
+    color: aliceblue;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pic {
+    width: 55vw;
+    height: 10vh;
+    display: none;
+    display: flex;
+  }
+  .pic1 {
+    align-items: center;
+  }
+  .pic2 {
+    align-items: center;
+  }
+}
+@media (max-width: 550px) {
+  .left1 h2,
+  p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  .left1 {
+    position: relative;
+    min-height: 7vh;
+  }
+  .bbt {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    background: linear-gradient(to right, #941a85, #4e0fbd);
+    color: aliceblue;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pic {
+    width: 55vw;
+    height: 10vh;
+    display: none;
+    display: flex;
+  }
+  .pic1 {
+    display: none;
+  }
+  .pic2 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .left1 h2,
+  p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+  .left1 {
+    position: relative;
+    min-height: 7vh;
+  }
+  .bbt {
+    width: 30vw;
+    height: 7vh;
+    border-radius: 100px;
+    background: linear-gradient(to right, #941a85, #4e0fbd);
+    color: aliceblue;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .pic {
+    width: 55vw;
+    height: 10vh;
+    display: none;
+    display: flex;
+  }
+  .pic1 {
+    display: none;
+  }
+  .pic2 {
+    display: none;
+  }
+}
+.card0 {
+  width: 100vw;
+  min-height: 520px;
+
+  border: 1px solid transparent;
+}
+.card1 {
+  width: 90vw;
+  min-height: 200px;
+
+  margin: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.card2 {
+  width: 90vw;
+  min-height: 200px;
+
+  margin: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.card3 {
+  width: 90vw;
+  min-height: 100px;
+
+  margin: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.card0 h1 {
+  text-align: center;
+  color: aliceblue;
+  padding-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .card3,
+  .card2,
+  .card1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    min-height: 300px;
+  }
+}
+@media (max-width: 550px) {
+  .card3,
+  .card2,
+  .card1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media (max-width: 500px) {
+  .card3,
+  .card2,
+  .card1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media (max-width: 450px) {
+  .card3,
+  .card2,
+  .card1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .card3,
+  .card2,
+  .card1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 350px) {
+  .card3,
+  .card2,
+  .card1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+}
+
+.photo {
+  width: 100vw;
+  min-height: 245px;
+
+  display: flex;
+}
+.div1 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div2 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div3 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div4 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.photo1 {
+  width: 100vw;
+  min-height: 245px;
+  background-color: rgb(206, 144, 10);
+  display: flex;
+}
+.div5 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img5.JPG);
+  background-position: center;
+  background-size: cover;
+}
+.div6 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img6.JPG);
+  background-position: center;
+  background-size: cover;
+}
+
+.photo2 {
+  width: 100vw;
+  min-height: 245px;
+  background-color: rgb(206, 144, 10);
+  display: flex;
+}
+.div7 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div8 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img8.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div9 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img9.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div10 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.photo3 {
+  width: 100vw;
+  min-height: 245px;
+  background-color: rgb(206, 144, 10);
+  display: flex;
+  justify-content: center;
+}
+.div11 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img11.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div12 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img12.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div13 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img13.jpg);
+  background-position: center;
+  background-size: cover;
+  border-right: 1px solid black;
+}
+.div14 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img14.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.photo4 {
+  width: 100vw;
+  min-height: 245px;
+  background-color: rgb(206, 144, 10);
+  display: flex;
+  justify-content: center;
+}
+.div15 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img15.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.div16 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img16.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.div17 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img17.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div18 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img18.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.photo5 {
+  width: 100vw;
+  min-height: 245px;
+  background-color: rgb(206, 144, 10);
+  display: flex;
+}
+.div19 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img19.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div20 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img20.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.div21 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img21.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.div22 {
+  width: 100%;
+  min-height: 245px;
+  background-image: url(https://www.nifafinearts.com/images/homegallery/img22.jpg);
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 600px) {
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4,
+  .photo5,
+  .photo {
+    flex-direction: column;
+  }
+  .head h2 {
+    color: white;
+    text-align: center;
+  }
+}
+@media (max-width: 550px) {
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4,
+  .photo5,
+  .photo {
+    flex-direction: column;
+  }
+  .head h2 {
+    color: white;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4,
+  .photo5,
+  .photo {
+    flex-direction: column;
+  }
+  .head h2 {
+    color: white;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4,
+  .photo5,
+  .photo {
+    flex-direction: column;
+  }
+  .head h2 {
+    color: white;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .photo1,
+  .photo2,
+  .photo3,
+  .photo4,
+  .photo5,
+  .photo {
+    flex-direction: column;
+  }
+  .head h2 {
+    color: white;
+    text-align: center;
+  }
+}
+.head h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-fluid {
+  width: 100vw;
+  min-height: 50vh;
+
+  border: 1px solid transparent;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divi1 {
+  width: 20vw;
+  min-height: 50vh;
+
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.divi2 {
+  width: 20vw;
+  min-height: 50vh;
+
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.divi3 {
+  width: 20vw;
+  min-height: 50vh;
+
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.divi4 {
+  width: 20vw;
+  min-height: 50vh;
+
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.divi1 .divi2 .divi3 .divi4 li {
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .container-fluid {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 550px) {
+  .container-fluid {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-fluid {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 450px) {
+  .container-fluid {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 400px) {
+  .container-fluid {
+    flex-direction: column;
+
+    justify-content: center;
+    overflow: visible;
+  }
+}
+.lastdiv {
+  width: 100vw;
+  min-height: 40vh;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftlastdiv {
+  width: 50vw;
+  min-height: 40vh;
+}
+.rightlastdiv {
+  width: 50vw;
+  min-height: 40vh;
+
+
+}
+.image1 {
+  background-image: url(https://img.icons8.com/color/2x/google-logo.png);
+  background-position: center;
+  background-size: cover;
+  width: 15%;
+  height: 15%;
+}
+h2,
+h5 {
+  text-align: center;
+}
+@media (max-width:600px) {
+  .lastdiv{
+    flex-direction: column;
+  }
+  
+}
